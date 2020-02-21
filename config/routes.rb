@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   resources :lists do
     resources :tokens
   end
-  root 'welcome#index'
+  root 'lists#index'
 end
